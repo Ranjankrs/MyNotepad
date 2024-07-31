@@ -27,6 +27,5 @@ urlpatterns = [
     path('add-todo/' , add_todo ), 
    path('delete-todo/<int:id>' , delete_todo ), 
    path('change-status/<int:id>/<str:status>' , change_todo ), 
-    # path('signup',views.signup,name="signup"),
-    # path('signin',views.signin,name="signin"),
+   
 ]
